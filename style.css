@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
+
+body {
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    background-color: rgb(250, 250, 250);
+    margin: 0px 0px;
+
+}
+
+#div-container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#name {
+    font-family: 'Galada', cursive;
+}
+#div-container h1 {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Roboto;
+
+    letter-spacing: 4px;
+
+    /*color: rgb(100,100,100);*/
+    color: #49be2b;
+
+    text-align: center;
+
+}
+
+.rond {
+    width: 210px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+
+}
+
+.box-white {
+    background: white;
+    border-radius: 4px;
+
+    margin: 40px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.btn-orange {
+    background-color: #fb8d62;
+    border-radius: 3px;
+
+    padding: 10px 20px;
+    margin-top: 500px;
+
+    font-family: Roboto;
+    text-decoration: none;
+
+    color: white;
+}
+
+
+.btn-orange:hover {
+
+    background-color: #d07551;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 20px;
+}
+
+.list-inline i:hover {
+    opacity: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-twitter {
+    color: Dodgerblue;
+}
+
+.fa-facebook-f {
+    color: #4267B2;
+}
+
+#img-insta {
+    width: 42px;
+}
+
+/* --------- MEDIA QUARIES----------*/
+@media (max-width: 970px) {
+    #div-container {
+        width: 850px;
+    }
+}
+
+@media (max-width: 850px) {
+    #div-container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 720px) {
+    #div-container {
+        width: 650px;
+    }
+}
+
+@media (max-width: 500px) {
+    #div-container {
+        width: 450px;
+    }
+
+    #div1 img {
+        width: 200px;
+
+    }
+}
